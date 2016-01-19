@@ -1,0 +1,61 @@
+body {
+  background: #ffaa00;
+}
+
+h3 {
+  color: white;
+  font-family: "Anton";
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 80px;
+  margin: 0px;
+  line-height: 0px;
+}
+
+h1 {
+  font-family: "Anton";
+  font-size: 38px;
+  color: #007676;
+  text-align: center;
+  padding:10px;
+  border: 0;
+  margin:1px;
+}
+
+h2 {
+  font-family:helvetica;
+  color:#9b6700;
+  padding:0px 25px;
+  margin: 0px;
+}
+
+p {
+  display: block;
+  color: black;
+  font-family: Arial;
+  margin: 5px 0 20px 0;
+  padding: 0px 25px;
+}
+
+ul {
+  font-family: Arial;
+}
+
+a:hover{
+  background-color: red;
+  color: black;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family:arial;
+  text-align: block;
+  padding: 10px;
+  margin: 20px;
+}
+
+.raro {
+  display: block;
+  text-align: center;
+  }
