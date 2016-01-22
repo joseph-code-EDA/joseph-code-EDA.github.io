@@ -2,6 +2,26 @@ body {
   background: #ffaa00;
 }
 
+li {
+  list-style-type: none;
+  text-align: left;
+  background-color: #007676;
+  display: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.raro {
+  text-align: center;
+  max-width: 100%;
+  padding-top: 70px;
+}
+
+.raro :hover {
+  font-weight: bold;
+}
+
+
 h3 {
   color: white;
   font-family: "Anton";
@@ -25,7 +45,7 @@ h1 {
 h2 {
   font-family:helvetica;
   color:#9b6700;
-  padding:0px 25px;
+  padding:0px `25px;
   margin: 0px;
 }
 
@@ -42,20 +62,15 @@ ul {
 }
 
 a:hover{
-  background-color: red;
-  color: black;
+  font-weight: bold;
+  color: white;
 }
 
 a {
-  color: white;
+  color: #007676;
   text-decoration: none;
   font-family:arial;
   text-align: block;
   padding: 10px;
   margin: 20px;
 }
-
-.raro {
-  display: block;
-  text-align: center;
-  }
