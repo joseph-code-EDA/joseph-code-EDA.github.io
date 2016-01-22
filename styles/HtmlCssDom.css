@@ -2,6 +2,11 @@ body {
   background: #ffaa00;
 }
 
+.logo {
+  background-repeat: no-repeat;
+}
+
+
 
 .raro {
   text-align: center;
