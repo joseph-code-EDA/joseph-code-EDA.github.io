@@ -1,5 +1,12 @@
 #header {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: black;
+    /*Opacity start*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.80;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+    /*Opacity end*/
     color: white;
     position: fixed;
     top: 0;
@@ -12,4 +19,8 @@
 
 #header #header-content {
     margin: 10px;
+}
+
+#header {
+  text-align: center;
 }
