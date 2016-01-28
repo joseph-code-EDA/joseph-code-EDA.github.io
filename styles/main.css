@@ -125,13 +125,20 @@ h4 {
   left:0;/*Sticky Footer*/
 }
 
-/*FOOTER-Social Media Links*/
+.footer a {
+  padding: 0 15px 20px 0;
+}
+/*
+/*FOOTER-Social Media Links
+
+
 .footer a:hover {
   color: white;
 }
 .footer a {
   text-decoration: none;
   font-size: 1.2em;
+  display: inline;
 }
 @media only screen and (max-width: 480px) {
   .footer a {
@@ -139,6 +146,7 @@ h4 {
     text-align: center;
   }
 }
+*/
 
 /*FOOTER-Copyright Line*/
 #copyright {
