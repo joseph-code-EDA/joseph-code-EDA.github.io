@@ -90,8 +90,6 @@ h4 {
   h4, #intro, #blogs a {
     text-align: center;
     display: block;
-    background-color: green;
-
   }
 }
 /*BODY-Right Column*/
@@ -121,21 +119,23 @@ h4 {
   bottom:0;/*Sticky Footer*/
   left:0;/*Sticky Footer*/
 }
+
+/*FOOTER-Social Media Links*/
 .footer a:hover {
   color: white;
 }
-
 .footer a {
   text-decoration: none;
   font-size: 1.2em;
 }
-@media only screen and (min-width: 480px) {
+@media only screen and (max-width: 480px) {
   .footer a {
-    font-size: 1.4em;
+    font-size: 1.5em;
     text-align: center;
   }
 }
 
+/*FOOTER-Copyright Line*/
 #copyright {
   font-family: "Raleway";
   color: white;
