@@ -8,29 +8,32 @@ html, body, #container {
   height: 100%;
   width: 100%;
 }
+html,
+body {
+  margin:0;
+  padding:0;
+  height:100%;
+}
+#wrapper {
+  min-height:100%;
+  position:relative;
+}
 
-
-
-
+/*-------------------------------------------*/
 
 /*HEADER*/
-
-
 .header{
   background-color: black;
   z-index: 0;
-  opacity: 0.7;
-  color: black;
+  opacity: 0.5;
+  color: white;
+  padding: 10px;/*Sticky Footer*/
 }
 /*HEADER TEXT*/
 #toptext {
   font-family: "Poiret One";
   color: #33C3F0;
   text-align: center;
-}
-#toptext p {
-  color: white;
-  z-index: 1;
 }
 .header img {
   float: center;
@@ -39,45 +42,79 @@ html, body, #container {
   padding: 25px;
   border-radius: 5px;
 }
-/*LOGO*/
+/*HEADER TEXT - Responsive with Media Query*/
+#toptext p {
+  color: white;
+  font-family: "Raleway";
+  font-size: 25px;
+  line-height: 125%;
+  margin: 0 0 30px 0;
+}
+@media only screen and (max-width: 480px) {
+  #toptext p {
+    font-size: 15px;
+    font-family: "Raleway";
+  }
+}
+/*HEADER TEXT - Responsive with Media Query*/
+h1 {
+  margin: 20px;
+  font-size: 80px;
+  line-height: 125%;
+}
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 60px;
+    font-family: "Raleway";
+  }
+}
+/*CODE TO ADD LOGO IN HEADER
 #logo {
   z-index: 1; position: relative;
 }
+*/
 
-
-
+/*-------------------------------------------*/
 
 /*BODY-Headlines*/
 h4 {
   color: #33C3F0;
+  margin-top: 20px;
 }
 /*BODY-Left Column*/
 #intro {
   color: white;
 }
+/*BODY-Sticky Footer*/
+.main{
+  padding-bottom:120px; /* Height of the footer element */
+}
 
-
-
-
+/*-------------------------------------------*/
 
 /*FOOTER*/
 .footer {
   background-color: black;
   text-align: center;
-  font-family: "Raleway";
+  font-family: "Poiret One";
+  font-size: 1.2em;
   padding: 10px;
+  width:100%;/*Sticky Footer*/
+  height:100px;/*Sticky Footer*/
+  position:absolute;/*Sticky Footer*/
+  bottom:0;/*Sticky Footer*/
+  left:0;/*Sticky Footer*/
 }
 .footer a {
   text-decoration: none;
-  padding: 50px 0;
   margin: 50px 0;
 }
 .footer a:hover {
   color: white;
 }
 .footer p {
-  font-family: "Poiret One";
+  font-family: "Raleway";
   color: white;
   padding: 0;
-  margin: 30px 0;
+  margin: 20px 0 10px 0;
 }
