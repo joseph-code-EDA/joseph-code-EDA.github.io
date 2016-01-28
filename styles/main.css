@@ -1,10 +1,8 @@
 body {
-    background-color: black;
     background: url("../images/main.jpg");
+    background-color: black;
     background-repeat: no-repeat;
     background-size: 100% 100%; 
-    padding: 0;
-    margin: 0;
 }
 html, body, #container {
   height: 100%;
@@ -16,12 +14,7 @@ html, body, #container {
 
 
 /*HEADER*/
-/*LOGO*/
-#logo {
-  position: center;
-  width: 16.67%;
-  z-index: 1; position: relative;
-}
+
 
 .header{
   background-color: black;
@@ -39,7 +32,6 @@ html, body, #container {
   color: white;
   z-index: 1;
 }
-
 .header img {
   float: center;
   width: 100px;
@@ -47,24 +39,21 @@ html, body, #container {
   padding: 25px;
   border-radius: 5px;
 }
-.header .container {
-  color: blue;
+/*LOGO*/
+#logo {
+  z-index: 1; position: relative;
 }
 
 
 
 
-/*BODY TITLES*/
+/*BODY-Headlines*/
 h4 {
   color: #33C3F0;
 }
-/*BODY-LEFT COLUMN*/
+/*BODY-Left Column*/
 #intro {
   color: white;
-}
-/*BODY-RIGHT COLUMN*/
-#blogs {
-  width: 100%;
 }
 
 
@@ -75,13 +64,20 @@ h4 {
 .footer {
   background-color: black;
   text-align: center;
+  font-family: "Raleway";
+  padding: 10px;
 }
 .footer a {
   text-decoration: none;
+  padding: 50px 0;
+  margin: 50px 0;
 }
 .footer a:hover {
   color: white;
 }
 .footer p {
+  font-family: "Poiret One";
   color: white;
+  padding: 0;
+  margin: 30px 0;
 }
