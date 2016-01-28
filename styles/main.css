@@ -98,10 +98,11 @@ h4 {
   padding: 0 15px;
   font-size: 1.1em;
 }
-
 #blogs a:hover {
-  background-color: red;
+  background-color: #011E27;
 }
+
+
 /*BODY-Sticky Footer*/
 .main{
   padding-bottom:140px; /* Height of the footer element */
