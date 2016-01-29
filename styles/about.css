@@ -89,6 +89,7 @@ h2 {
   margin-right: 110px;
 }
 
+
 /*BODY-Pepeha*/
 #pepeha p {
   color: #33C3F0;
@@ -104,7 +105,7 @@ h2 {
 }
 @media only screen and (max-width: 480px) {
   h4, #photo img, #pepeha p, #mihi p {
-    text-align: justify;
+    text-align: center;
     display: block;
     font-size: 1.1em;
   }
