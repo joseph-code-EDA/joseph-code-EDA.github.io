@@ -113,9 +113,7 @@ h2 {
 }
 
 #back h4 {
-  color: red;
-  background-color: blue;
-  margin: 0 350px;
+  margin: 0 auto;
   text-decoration: none;
 }
 
