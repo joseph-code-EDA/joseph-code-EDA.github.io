@@ -112,7 +112,8 @@ a {
   }
 }
 @media only screen and (max-width: 480px) {
-   #title img, .header {
+   #title img {
+    max-width: 100%;
     display: block;
     text-align: center;
   }
