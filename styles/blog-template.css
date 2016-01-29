@@ -1,0 +1,113 @@
+body {
+    background: url("../images/blog-bg-portrait.jpg");
+    background-image: fixed;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+}
+
+.main {
+  padding-top: 400px;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+68,ffffff+68,ffffff+94,ffffff+100&1+34,0.01+100 */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 34%, rgba(255,255,255,0.49) 68%, rgba(255,255,255,0.1) 94%, rgba(255,255,255,0.01) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 34%,rgba(255,255,255,0.49) 68%,rgba(255,255,255,0.1) 94%,rgba(255,255,255,0.01) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 34%,rgba(255,255,255,0.49) 68%,rgba(255,255,255,0.1) 94%,rgba(255,255,255,0.01) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#03ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+
+#cb3 h1{
+  font-family: "Great Vibes";
+  text-align: center;
+  font-size: 80px;
+  color: white;
+  padding: 180px 0;
+  background-color: black;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+
+h1:hover + #hover {
+  display: block;
+}
+
+#tb3 h1{
+  font-family: "Share Tech";
+  font-size: 100px;
+  text-align: center;
+  color: white;
+  padding: 50px;
+  background-color: black;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+#tb2 h1{
+  font-family: "Share Tech";
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  padding: 90px 50px;
+  background-color: black;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+#tb1 h1{
+  font-family: "Monoton";
+  font-size: 100px;
+  text-align: left;
+  margin-top: 20px;
+  padding-right: 50px;
+  color: white;
+  padding: 50px;
+  background-color: black;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+#cb2 h1{
+  font-family: "Qwigley";
+  text-align: center; 
+  margin-top: 20px;
+  color: white;
+  padding: 50px;
+  background-color: black;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+#cb1b h1{
+  font-family: "Six Caps";
+  text-align: center;  
+  margin-top: 20px;
+  color: white;
+  padding: 200px 0;
+  background-color: black;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+#cb1a h1{
+  font-family: "Permanent Marker";
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 180px;
+  color: white;
+  padding: 130px 0;
+  background-color: black;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+/*REMOVE UNDERLINE FROM ANCHORS*/
+a {
+  text-decoration: none;
+}
+
+#wrapper h1:hover {
+  border: 0 solid black;
+  background-color: white;
+  color: black;
+}
