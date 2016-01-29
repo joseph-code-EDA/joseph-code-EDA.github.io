@@ -1,0 +1,182 @@
+body {
+    background: url("../images/main.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+}
+html, body, #container {
+  height: 100%;
+  width: 100%;
+}
+html,
+body {
+  margin:0;
+  padding:0;
+  height:100%;
+}
+#wrapper {
+  min-height:100%;
+  position:relative;
+}
+
+/*-------------------------------------------*/
+
+/*HEADER*/
+.header{
+  background-color: black;
+  z-index: 0;
+  opacity: 0.5;
+  color: white;
+  padding: 10px;/*Sticky Footer*/
+}
+/*HEADER TEXT*/
+#toptext {
+  font-family: "Poiret One";
+  color: #33C3F0;
+  text-align: center;
+}
+.header img {
+  float: center;
+  width: 100px;
+  height: 100px;
+  padding: 25px;
+  border-radius: 5px;
+}
+/*HEADER TEXT - Responsive with Media Query*/
+#toptext p {
+  color: white;
+  font-family: "Raleway";
+  font-size: 25px;
+  line-height: 125%;
+  margin: 0 0 30px 0;
+}
+@media only screen and (max-width: 480px) {
+  #toptext p {
+    font-size: 15px;
+    font-family: "Raleway";
+  }
+}
+/*HEADER TEXT - Responsive with Media Query*/
+h1 {
+  margin: 20px;
+  font-size: 80px;
+  line-height: 125%;
+}
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 60px;
+    font-family: "Raleway";
+  }
+}
+
+
+/*-------------------------------------------*/
+
+
+/*BODY-Headlines*/
+h4 {
+  color: #33C3F0;
+  margin-top: 20px;
+  text-align: center;
+}
+/*BODY-Image*/
+#photo img {
+  margin: 0 auto;
+  display: block;
+  border-radius: 40px;
+  border: 4px solid #33C3F0;
+  box-shadow: 0 0 70px 5px #33C3F0;
+}
+
+/*BODY-Pepeha*/
+#pepeha p {
+  color: #33C3F0;
+  text-align: left;
+  font-family: "Arial";
+  font-size: 1.4em;
+}
+#mihi p {
+  color: white;
+  font-size: 1.4em;
+  margin: 0 35px;
+}
+@media only screen and (max-width: 480px) {
+  h4, #photo img, #pepeha p, #mihi p {
+    text-align: center;
+    display: block;
+  }
+}
+
+#back {
+  text-decoration: none;
+}
+
+/*BODY-Pepeha*/
+
+/*BODY-Sticky Footer*/
+.main{
+  padding-bottom:120px; /* Height of the footer element */
+  text-decoration: none;
+}
+
+/*-------------------------------------------*/
+
+/*FOOTER*/
+.footer {
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.1em;
+  padding-top: 20px;
+  width:100%;/*Sticky Footer*/
+  height:100px;/*Sticky Footer*/
+  position:absolute;/*Sticky Footer*/
+  bottom:0;/*Sticky Footer*/
+  left:0;/*Sticky Footer*/
+}
+
+.footer a {
+  padding: 0 15px 20px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.row a {
+  margin: 0 auto;
+  display: inline;
+  text-align: center;
+}
+/*
+/*FOOTER-Social Media Links
+
+
+.footer a:hover {
+  color: white;
+}
+.footer a {
+  text-decoration: none;
+  font-size: 1.2em;
+  display: inline;
+}
+@media only screen and (max-width: 480px) {
+  .footer a {
+    font-size: 1.5em;
+    text-align: center;
+  }
+}
+*/
+
+/*FOOTER-Copyright Line*/
+#copyright {
+  font-family: "Raleway";
+  color: white;
+  margin-top: 10px;
+  font-size: 0.8em;
+  text-align: center;
+}
+@media only screen and (max-width: 480px) {
+  #copyright {
+    font-size: 0.6em;
+  }
+}
