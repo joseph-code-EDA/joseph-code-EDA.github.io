@@ -13,6 +13,7 @@ body {
   margin:0;
   padding:0;
   height:100%;
+  text-decoration: none;
 }
 #wrapper {
   min-height:100%;
@@ -104,14 +105,15 @@ h2 {
   margin: 0 35px;
 }
 @media only screen and (max-width: 480px) {
-  h4, #photo img, #pepeha p, #mihi p {
+  h2, #photo img, #pepeha p, #mihi p, #back {
     text-align: center;
     display: block;
     font-size: 1.1em;
+    margin: 0 auto;
   }
 }
 
-#back {
+#back, h4 {
   text-decoration: none;
 }
 
