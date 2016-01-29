@@ -105,3 +105,15 @@ a {
   background-color: white;
   color: black;
 }
+@media only screen and (max-width: 480px) {
+  #wrapper {
+    font-size: 60px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 480px) {
+   #title img, .header {
+    display: block;
+    text-align: center;
+  }
+}
