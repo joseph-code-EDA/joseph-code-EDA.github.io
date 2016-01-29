@@ -8,8 +8,7 @@ html, body, #container {
   height: 100%;
   width: 100%;
 }
-html,
-body {
+html, body {
   margin:0;
   padding:0;
   height:100%;
@@ -105,7 +104,7 @@ h2 {
   margin: 0 35px;
 }
 @media only screen and (max-width: 480px) {
-  h2, #photo img, #pepeha p, #mihi p, #back {
+  #photo img, #pepeha p, #mihi p, #back {
     text-align: center;
     display: block;
     font-size: 1.1em;
@@ -113,7 +112,10 @@ h2 {
   }
 }
 
-#back, h4 {
+#back h4 {
+  color: red;
+  background-color: blue;
+  margin: 0 350px;
   text-decoration: none;
 }
 
