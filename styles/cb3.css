@@ -9,6 +9,21 @@ body {
 a {
   text-decoration: none;
 }
+
+
+/*TRIALLING*/
+html, body, #container {
+  height: 50px;
+  width: 100%;
+}
+body {
+  margin:0;
+  padding:0;
+  height:100%;
+}
+
+
+
 /*-- ---------------------------------------------------------- --*/ 
 /* HEADER-Title */
 #title h1 {
@@ -16,10 +31,11 @@ a {
 }
 /* HEADER-Background */
 .header {
-  padding-top: 100px;
-  position: fixed;
+  padding-top: 40px;
   font-family: "Lobster Two";
+  margin: 0;
   width: 100%;
+  height: 100px;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+68,ffffff+68,ffffff+94,ffffff+100&1+34,0.01+100 */
   background: -moz-linear-gradient(top,  rgba(255,255,255,1) 34%, rgba(255,255,255,0.49) 68%, rgba(255,255,255,0.1) 94%, rgba(255,255,255,0.01) 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 34%,rgba(255,255,255,0.49) 68%,rgba(255,255,255,0.1) 94%,rgba(255,255,255,0.01) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -33,12 +49,10 @@ a {
 }
 #back-button a {
   font-family: Arial;
-  margin: 0px;
   background-color: gray;
   border: 2px solid gray;
   color: white;
-  opacity: 0.2;
-  text-align: left;
+  opacity: 0.3
 }
 #back-button a:hover {
   background-color: transparent;
@@ -52,42 +66,37 @@ h4 {
   font-family: "Lobster Two";
   text-shadow: 0 0 10px black;
   text-align: center;
+  padding-top: 5px;
 }
+
 /* MAIN-Scrollboxes */
 #answerform{
-  position: absolute;
   color: white;
-  border: 2px solid white;
-  padding: 10px;
+  border: 5px solid transparent;
+  padding: 15px;
   background: black;
-  border-radius: 10px;
-  opacity: 0.7;
-  width: 300px;
-  height: 200px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  opacity: 0.6;
+  width: 275px;
+  height: 250px;
   overflow-y: scroll;
+  position: relative;
 }
 /* MAIN-Layout */
 .main {
-  padding-top: 200px;
-  padding-bottom:120px; /* Height of the Sticky Footer */
+  padding-top: 20px;
+  padding-bottom:50px; /* Height of the Sticky Footer */
 }
 /*-- ---------------------------------------------------------- --*/ 
 
 
 @media only screen and (min-device-width: 414px) and (max-device-width : 736px) and (max-width: 480px){
-    #answerform {
+    h4 {
     max-width: 100%;
-    display: block;
-    color: blue;
+    font-size: 60px;
+    display: inline;
     text-align: center;
-    margin: 0 auto;
-  }
-}
-@media only screen and (min-device-width: 414px) and (max-device-width : 736px) and (max-width: 480px){
-    #left-title. #middle-title, #right-title, h4  {
-    max-width: 100%;
-    display: block;
-    text-align: center;
-    padding-bottom: ;: 150px;
+    padding-bottom: 150px;
   }
 }
