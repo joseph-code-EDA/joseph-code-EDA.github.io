@@ -29,6 +29,7 @@ a {
 /* HEADER-Button */
 #back-button {
    padding: 12px 0;
+   text-align: center;
 }
 #back-button a {
   font-family: Arial;
@@ -74,15 +75,16 @@ h4 {
 
 
 @media only screen and (min-device-width: 414px) and (max-device-width : 736px) and (max-width: 480px){
-    #answerform p {
+    #answerform {
     max-width: 100%;
-    display: block-inline;
+    display: block;
+    color: blue;
     text-align: center;
-    margin-bottom: 100px;
+    margin: 0 auto;
   }
 }
 @media only screen and (min-device-width: 414px) and (max-device-width : 736px) and (max-width: 480px){
-    #left-title. #middle-title, #right-title  {
+    #left-title. #middle-title, #right-title, h4  {
     max-width: 100%;
     display: block;
     text-align: center;
