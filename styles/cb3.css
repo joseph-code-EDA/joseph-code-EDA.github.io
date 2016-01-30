@@ -32,11 +32,12 @@ a {
 }
 #back-button a {
   font-family: Arial;
-  padding: 10px 15px;
+  margin: 0px;
   background-color: gray;
   border: 2px solid gray;
   color: white;
-  opacity: 0.2
+  opacity: 0.2;
+  text-align: left;
 }
 #back-button a:hover {
   background-color: transparent;
@@ -72,23 +73,19 @@ h4 {
 /*-- ---------------------------------------------------------- --*/ 
 
 
-@media only screen and (max-width: 480px) {
-  #wrapper {
-    font-size: 60px;
+@media only screen and (min-device-width: 414px) and (max-device-width : 736px) and (max-width: 480px){
+    #answerform p {
+    max-width: 100%;
+    display: block-inline;
     text-align: center;
+    margin-bottom: 100px;
   }
 }
-@media only screen and (max-width: 480px) {
-   #title img {
+@media only screen and (min-device-width: 414px) and (max-device-width : 736px) and (max-width: 480px){
+    #left-title  {
     max-width: 100%;
     display: block;
     text-align: center;
-  }
-}
-@media only screen and (min-device-width: 414px) and (max-device-width : 736px) {
-    #title img {
-    max-width: 100%;
-    display: block;
-    text-align: center;
+    padding-bottom: ;: 150px;
   }
 }
