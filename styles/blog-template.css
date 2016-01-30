@@ -1,14 +1,15 @@
 body {
-    background: url("../images/blog-bg-portrait.jpg");
-    background-image: fixed;
-    background-color: white;
-    background-repeat: no-repeat;
-    background-size: 100% 100%; 
+  background: url("../images/blog-bg-portrait.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .main {
   padding-top: 400px;
 }
+
 
 .header {
   position: fixed;
@@ -118,7 +119,7 @@ a {
     text-align: center;
   }
 }
-@media only screen and (min-width: 414px) and (max-device-width : 736px) {
+@media only screen and (min-device-width: 414px) and (max-device-width : 736px) {
     #title img {
     max-width: 100%;
     display: block;
