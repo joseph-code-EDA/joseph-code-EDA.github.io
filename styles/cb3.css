@@ -82,7 +82,7 @@ h4 {
   }
 }
 @media only screen and (min-device-width: 414px) and (max-device-width : 736px) and (max-width: 480px){
-    #left-title  {
+    #left-title. #middle-title, #right-title  {
     max-width: 100%;
     display: block;
     text-align: center;
