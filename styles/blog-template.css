@@ -126,3 +126,11 @@ a {
     text-align: center;
   }
 }
+
+.footer a {
+  text-align: center;
+  font-size: 70px;
+  font-family: "Love Ya Like A Sister";
+  color: black;
+  padding: 20px 0;
+}
