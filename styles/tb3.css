@@ -1,5 +1,6 @@
 body {
-  background: url("../images/cb3-bg.jpg") no-repeat center center fixed;
+  background: url("../images/tb3-bg2.jpg");
+  background-repeat: repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -9,11 +10,9 @@ body {
 a {
   text-decoration: none;
 }
-
-
 /*TRIALLING*/
 html, body, #container {
-  height: 50px;
+  height: 0px;
   width: 100%;
 }
 body {
@@ -21,79 +20,122 @@ body {
   padding:0;
   height:100%;
 }
-
-
-
 /*-- ---------------------------------------------------------- --*/ 
 /* HEADER-Title */
 #title h1 {
   text-align: center;
-}
-/* HEADER-Background */
-.header {
-  padding-top: 40px;
-  font-family: "Lobster Two";
-  margin: 0;
-  width: 100%;
-  height: 100px;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+68,ffffff+68,ffffff+94,ffffff+100&1+34,0.01+100 */
-  background: -moz-linear-gradient(top,  rgba(255,255,255,1) 34%, rgba(255,255,255,0.49) 68%, rgba(255,255,255,0.1) 94%, rgba(255,255,255,0.01) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 34%,rgba(255,255,255,0.49) 68%,rgba(255,255,255,0.1) 94%,rgba(255,255,255,0.01) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  rgba(255,255,255,1) 34%,rgba(255,255,255,0.49) 68%,rgba(255,255,255,0.1) 94%,rgba(255,255,255,0.01) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#03ffffff',GradientType=0 ); /* IE6-9 */
-}
-/* HEADER-Button */
-#back-button {
-   padding: 12px 0;
-   text-align: center;
-}
-#back-button a {
-  font-family: Arial;
-  background-color: gray;
-  border: 2px solid gray;
   color: white;
-  opacity: 0.3
-}
-#back-button a:hover {
-  background-color: transparent;
-  color: gray;
-  opacity: 0.6;
+  font-family: "Orbitron";
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 /*-- ---------------------------------------------------------- --*/ 
-/* MAIN-Title */
-h4 {
+/* MAIN-Instructions Text */
+#instructions p {
+  font-family: "Orbitron";
   color: white;
-  font-family: "Lobster Two";
-  font-size: 30px;
-  text-shadow: 0 0 10px black;
+  background-color: black;
+  opacity: 0.7;
+  border-radius: 20px;
   text-align: center;
-  padding-top: 5px;
-}
-@media only screen and (min-device-width: 414px) {
-    h4 {
-    text-align: center;
-    font-size: 30px;
-  }
+  padding: 0 0;
+ }
+/* MAIN-Nav Menu Hover */
+ul, a {
+  font-family: "Share Tech";
+  font-size: 1.5em;
+  list-style-type: none;
+  text-align: center;
+  color: white;
 }
 
-/* MAIN-Scrollboxes */
-#answerform{
+li {
+  padding: 10px 1px 10px 1px;
+  display: block;
+}
+
+/* MAIN-Nav Menu Hover */
+a:hover {
+  color: #ffc500;
+  opacity: 0.7;
+}
+/* MAIN-Article Titles */
+h2 {
   color: white;
-  border: 5px solid transparent;
-  padding: 15px;
-  background: black;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-  opacity: 0.6;
-  width: 275px;
-  height: 250px;
-  overflow-y: scroll;
+  font-family: "Orbitron";
+  font-size: 50px;
+  text-align: justify;
+  padding-top: 150px;
+}
+@media only screen and (min-device-width: 414px) {
+    h2 {
+    text-align: center;
+    font-size: 35px;
+  }
+}
+/* MAIN-Wireframe Thumbnails */
+.thumbnail {
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.thumbnail1:hover {
   position: relative;
+  width:450px;
+  height: auto;
+  display: block;
+  z-index: 999;
+}
+
+.thumbnail2:hover {
+  position: relative;
+  width:450px;
+  height: auto;
+  display: block;
+  z-index: 999;
+}
+
+.thumbnail3:hover {
+  position: relative;
+  width:300px;
+  height: 450px;
+  display: block;
+  z-index: 999;
+}
+
+.thumbnail4:hover {
+  position: relative;
+  width:300px;
+  height: 450px;
+  display: block;
+  z-index: 999;
+}
+/* MAIN-Content Text */
+ p {
+  font-family: "Days One";
+  font-size: 1.3em;
+  color: white;
+  background-color: black;
+  opacity: 0.7;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  max-width: 100%;
+  margin: 0 auto;
+   }
+ /* MAIN-"TOP" Link Hover */
+#toplink > p:hover {
+  color: red !important;
 }
 /* MAIN-Layout */
 .main {
   padding-top: 20px;
-  padding-bottom:50px; /* Height of the Sticky Footer */
+  padding-bottom:100px; /* Height of the Sticky Footer */
 }
 /*-- ---------------------------------------------------------- --*/ 
-
+/* FOOTER-Text */
+.footer {
+  text-align: center;
+  padding-bottom: 100px;
+}
+/*-- ---------------------------------------------------------- --*/ 
