@@ -95,5 +95,12 @@ h4 {
   padding-top: 20px;
   padding-bottom:50px; /* Height of the Sticky Footer */
 }
+
+.note p {
+  font-family: "Shadows Into Light";
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
 /*-- ---------------------------------------------------------- --*/ 
 
