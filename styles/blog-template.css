@@ -7,7 +7,7 @@ body {
 }
 
 .main {
-  padding-top: 300px;
+  padding-top: 350px;
 }
 
 
@@ -24,26 +24,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 
 #tb4, #tb3, #tb2, #tb1, #cb4, #cb3, #cb2, #cb1b, #cb1a {
-  font-family: "Share Tech";
   text-align: center;
   color: white;
-  padding: 10px;
-  margin: 10px;
-  background-color: black;
+  margin: 3px;
   border-radius: 20px;
   opacity: 0.8;
 }
 
-
-h1{
+h1 {
   font-family: "Permanent Marker";
   text-align: center; 
-  font-size: 2em;
+  font-size: 1.8em;
   color: white;
-  padding: 50px;
+  padding: 20px;
   background-color: black;
   border-radius: 10px;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 /*REMOVE UNDERLINE FROM ANCHORS*/
 a {
@@ -52,6 +48,7 @@ a {
 
 h1:hover {
   color: black;
+  background-color: #01ffcb;
 }
 
 @media only screen and (max-width: 480px) {
