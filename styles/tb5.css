@@ -32,6 +32,7 @@ a {
   color: #D6BA32;
   border: 2px solid #D6BA32;
 }
+
 p {
   font-size: 1.8em;
   font-family: "Share Tech";
@@ -52,9 +53,9 @@ h1 {
   padding: 20px;
 }
 h2 {
-  font-size: 2em;
+  font-size: 3.5em;
   font-family: "Unica One";
-  text-align: justify;
+  text-align: right;
   padding: 20px;
   background-color: #22C6FD;
   border-radius: 20px;
@@ -70,7 +71,6 @@ h2 {
 /* MAIN-Instructions Text */
 h1 {
   font-size: 9em;
-  width: 100%;
   height: auto;
   text-align: center;
   color: white;
@@ -78,20 +78,9 @@ h1 {
   padding-top: 100px;
   padding-bottom: 50px;
 }
-img {
-  max-width: 100%;
-  height: auto;
-  margin: 0 auto;
-}
 
 /* MAIN-Media Queries */
-@media only screen and (max-width: 500px) {
-  img {
-    width: 100%;
-    font-size: 5em;
-    text-align: center;
-  }
-}
+
 @media only screen and (max-width: 500px) {
   h1 {
     width: 100%;
