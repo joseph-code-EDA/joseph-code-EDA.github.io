@@ -34,42 +34,26 @@ a {
 }
 p {
   font-size: 1.6em;
-  font-family: "Ubuntu";
+  font-family: "Unica One";
   text-align: justify;
-  background-color: #011556;
-  opacity: 0.8;
-  border-radius: 15px;
-  color: white;  
   padding: 20px;
 }
 
+h1 {
+  font-family:;
+  background-color: #011556;
+  opacity: 0.9;
+  color: white;  
+  padding: 20px;
+}
 h2 {
+  font-family:;
   background-color: #011556;
-  opacity: 0.8;
-  border-radius: 15px;
+  opacity: 0.9;
   color: white;  
   padding: 20px;
 }
 
-#content2 ol {
-  font-size: 1.6em;
-  font-family: "Homenaje";
-  text-align: right;
-}
-#content3 ol {
-  text-align: left;
-  font-size: 1.6em;
-  font-family: "Homenaje";
-}
-#counter {
-  padding-top: 50px;
-}
-#counter a {
-  color: white;
-}
-li {
-  padding-top: 2px;
-}
 /*-- ---------------------------------------------------------- --*/ 
 /* HEADER-Title */
 
@@ -155,4 +139,44 @@ img {
     width: 35%;
     margin: 0 auto;
   }
+}
+#color1 {
+  font-family: "Unica One";
+  background-color: red;
+  border-radius: 20px;
+  opacity: 0.9;
+  color: white;  
+  padding: 20px;
+}
+#color2 {
+  font-family: "Unica One";
+  background-color: red;
+  border-radius: 20px;
+  opacity: 0.9;
+  color: #F8AF02;  
+  padding: 20px;
+}
+#color1 {
+  font-family: "Unica One";
+  background-color: red;
+  border-radius: 20px;
+  opacity: 0.9;
+  color: white;  
+  padding: 20px;
+}
+#color1 {
+  font-family: "Unica One";
+  background-color: red;
+  border-radius: 20px;
+  opacity: 0.9;
+  color: white;  
+  padding: 20px;
+}
+#color1 {
+  font-family: "Unica One";
+  background-color: red;
+  border-radius: 20px;
+  opacity: 0.9;
+  color: white;  
+  padding: 20px;
 }
