@@ -36,19 +36,17 @@ p {
   font-size: 1.6em;
   font-family: "Ubuntu";
   text-align: justify;
-  background-color: black;
+  background-color: #011556;
   opacity: 0.8;
   border-radius: 15px;
-  border: 3px solid #4FE500;
   color: white;  
   padding: 20px;
 }
 
 h2 {
-  background-color: #C58B26;
+  background-color: #011556;
   opacity: 0.8;
   border-radius: 15px;
-  border: 3px solid #C58B26;
   color: white;  
   padding: 20px;
 }
