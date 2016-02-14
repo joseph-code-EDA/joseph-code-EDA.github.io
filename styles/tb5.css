@@ -22,15 +22,16 @@ a {
 }
 #back-button {
   text-align: center;
-  color: white;
+  color: #89E235;
   font-family: "Unica One";
   font-size: 1.8em;
-  background-color: transparent;
-  border: 2px solid white;
+  background-color: #300A24;
+  border: 2px solid #89E235;
 }
 #back-button:hover {
-  color: #D6BA32;
-  border: 2px solid #D6BA32;
+  background-color: #300A24;
+  color: #659FCF;
+  border: 2px solid #659FCF;
 }
 
 p {
