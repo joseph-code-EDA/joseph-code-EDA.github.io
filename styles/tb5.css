@@ -37,6 +37,11 @@ p {
   font-family: "Unica One";
   text-align: justify;
   padding: 20px;
+  background-color: black;
+  border-radius: 20px;
+  opacity: 0.9;
+  color: white;  
+  padding: 20px;
 }
 
 h1 {
