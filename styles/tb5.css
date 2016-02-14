@@ -32,7 +32,13 @@ a {
   color: #D6BA32;
   border: 2px solid #D6BA32;
 }
-
+#title {
+  background-color: #300A24;
+  border-radius: 20px;
+  opacity: 0.83;
+  opacity: 0.8;
+  padding: 20px;
+}
 p {
   font-size: 2em;
   font-family: "Share Tech";
@@ -45,13 +51,6 @@ p {
   padding: 30px;
 }
 
-h1 {
-  font-family:;
-  background-color: black;
-  opacity: 0.8;
-  color: white;  
-  padding: 20px;
-}
 h2 {
   font-size: 3.5em;
   font-family: "Unica One";
