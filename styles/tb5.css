@@ -68,13 +68,12 @@ h1 {
   text-align: center;
   color: white;
   font-family: "Unica One";
-  padding-top: 100px 0;
+  padding-top: 200px 0px;
 }
 #title {
   background-color: #300A24;
   border-radius: 20px;
   opacity: 0.83;
-  opacity: 0.8;
   margin-bottom: 20px;
 }
 /* MAIN-Media Queries */
