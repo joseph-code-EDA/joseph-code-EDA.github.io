@@ -52,11 +52,15 @@ h1 {
   padding: 20px;
 }
 h2 {
-  font-family:;
-  background-color: #011556;
-  opacity: 0.9;
-  color: white;  
+  font-size: 1.8em;
+  font-family: "Share Tech";
+  text-align: justify;
   padding: 20px;
+  background-color: #22C6FD;
+  border-radius: 20px;
+  opacity: 0.8;
+  color: black;  
+  padding: 30px;
 }
 
 /*-- ---------------------------------------------------------- --*/ 
