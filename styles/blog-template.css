@@ -63,6 +63,13 @@ h1:hover {
     display: block;
     text-align: center;
   }
+
+@media only screen and (max-width: 580px) {
+   #title img {
+    max-width: 100%;
+    display: block;
+    text-align: center;
+  }
 }
 @media only screen and (min-device-width: 520px) and (max-device-width : 736px) {
     #title img {
@@ -74,6 +81,7 @@ h1:hover {
 
 .footer a {
   text-align: center;
+  margin: 0 auto;
   font-size: 70px;
   font-family: "Permanent Marker";
   color: black;
