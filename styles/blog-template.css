@@ -23,7 +23,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 
-#tb4, #tb3, #tb2, #tb1, #cb4, #cb3, #cb2, #cb1b, #cb1a {
+#tb5, #tb4, #tb3, #tb2, #tb1, #cb5, #cb4, #cb3, #cb2, #cb1b, #cb1a {
   text-align: center;
   color: white;
   margin: 3px;
@@ -75,7 +75,7 @@ h1:hover {
 .footer a {
   text-align: center;
   font-size: 70px;
-  font-family: "Love Ya Like A Sister";
+  font-family: "Permanent Marker";
   color: black;
   padding: 20px 0;
 }
