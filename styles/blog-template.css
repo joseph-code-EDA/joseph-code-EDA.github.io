@@ -44,6 +44,8 @@ h1 {
 /*REMOVE UNDERLINE FROM ANCHORS*/
 a {
   text-decoration: none;
+  font-family: "Permanent Marker";
+  text-align: center;
 }
 
 h1:hover {
@@ -51,12 +53,6 @@ h1:hover {
   background-color: #01ffcb;
 }
 
-@media only screen and (max-width: 520px) {
-  #wrapper {
-    font-size: 1.4em;
-    text-align: center;
-  }
-}
 @media only screen and (max-width: 520px) {
    #title img {
     max-width: 100%;
@@ -79,16 +75,18 @@ h1:hover {
   }
 }
 
-.footer a {
-  text-align: center;
+#home a {
   margin: 0 auto;
+  display: block;
   font-size: 70px;
   font-family: "Permanent Marker";
-  color: black;
+  color: #2ED9BD;
   padding: 20px 0;
+  text-shadow: 5px 5px 5px black;
 }
 
-.footer a:hover {
-  color: white;
+#home a:hover {
+  color: #FD34C2;
   text-align: center;
+  margin: 0 auto;
 }
