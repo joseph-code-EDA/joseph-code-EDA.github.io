@@ -1,0 +1,158 @@
+
+body {
+  background: url("../images/tb5.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* PADDING FROM TOP OF PAGE */
+.header {
+  padding-top: 50px;
+  width: 100%;
+}
+/* PADDING FROM BOTTOM OF PAGE */
+.footer {
+  padding: 80px 0;
+  text-align: center;
+}
+#back-button {
+  text-align: center;
+  color: #89E235;
+  font-family: "Unica One";
+  font-size: 1.8em;
+  background-color: #300A24;
+  border: 2px solid #89E235;
+}
+#back-button:hover {
+  background-color: #300A24;
+  color: #659FCF;
+  border: 2px solid #659FCF;
+}
+
+
+p {
+  font-size: 2em;
+  font-family: "Share Tech";
+  text-align: justify;
+  padding: 20px;
+  background-color: black;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  opacity: 0.83;
+  color: white;  
+  padding: 30px;
+}
+
+h2 {
+  font-size: 3.5em;
+  font-family: "Unica One";
+  text-align: right;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  opacity: 0.8;
+  color: black;  
+  padding: 30px;
+}
+
+h1 {
+  font-size: 9em;
+  height: auto;
+  text-align: center;
+  color: white;
+  font-family: "Unica One";
+  padding-top: 100px;
+  padding-bottom:100px;
+}
+#title {
+  background-color: #300A24;
+  border-radius: 20px;
+  opacity: 0.83;
+  margin-bottom: 0px;
+}
+
+#toplink {
+  text-align: center;
+  color: black;
+}
+
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 500px) {
+  h1 {
+    width: 100%;
+    font-size: 5em;
+    text-align: center;
+    padding-top: 10px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  h1 {
+    width: 80%;
+    font-size: 5em;
+    text-align: center;
+    padding-top: 10px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  h2 {
+    width: 100%;
+    font-size: 2.1em;
+    text-align: center !important;
+  }
+@media only screen and (max-width: 500px) {
+  #content3 ol {
+    width: 50%;
+    font-size: 1.5em;
+    padding-left: 100px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #content2 ol {
+    width: 50%;
+    font-size: 1.5em;
+    text-align: left;
+    padding-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  p {
+    text-align: center;
+    width: 100%;
+    font-size: 1.5em;
+  }
+}
+/*-- ---------------------------------------------------------- --*/ 
+/* FOOTER-Text */
+@media only screen and (max-width: 500px) {
+ #back-button {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+#counter {
+    width: 35%;
+    margin: 0 auto;
+  }
+}
+
+#toplink:a {
+  color: #FE0241;
+}
+
+/* MAIN-Nav Menu Hover */
+.instructions {
+  font-family: "Share Tech";
+  font-size: 1.5em;
+  list-style-type: none;
+  text-align: center;
+  color: white;
+}
