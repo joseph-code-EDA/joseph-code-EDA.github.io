@@ -1,10 +1,23 @@
-
 body {
-  background: url("../images/tb5.jpg") no-repeat center center fixed;
+  background: url("http://free.wallpaperbackgrounds.com/movie/star%20wars/star-wars-movie-35975.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  font-size: 2em;
+  color: red;
+  padding: 15px;
+  font-family: "Share Tech";
+}
+
+a:hover {
+  color: black;
+  background-color: red;
+  border-radius: 10px;
 }
 
 /* PADDING FROM TOP OF PAGE */
@@ -17,68 +30,15 @@ body {
   padding: 80px 0;
   text-align: center;
 }
-#back-button {
-  text-align: center;
-  color: #89E235;
-  font-family: "Unica One";
-  font-size: 1.8em;
-  background-color: #300A24;
-  border: 2px solid #89E235;
-}
-#back-button:hover {
-  background-color: #300A24;
-  color: #659FCF;
-  border: 2px solid #659FCF;
-}
 
 p {
   font-size: 2em;
   font-family: "Share Tech";
   text-align: justify;
-  padding: 20px;
-  background-color: black;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
   opacity: 0.83;
-  color: white;  
+  color: #ffdf00;  
   padding: 30px;
 }
-
-h2 {
-  font-size: 3.5em;
-  font-family: "Unica One";
-  text-align: right;
-  padding: 20px;
-  background-color: white;
-  border-radius: 20px;
-  opacity: 0.8;
-  color: black;  
-  padding: 30px;
-}
-
-h1 {
-  font-size: 9em;
-  height: auto;
-  text-align: center;
-  color: white;
-  font-family: "Unica One";
-  padding-top: 100px;
-  padding-bottom:100px;
-}
-#title {
-  background-color: #300A24;
-  border-radius: 20px;
-  opacity: 0.83;
-  margin-bottom: 50px;
-}
-
-#toplink {
-  text-align: center;
-  color: white;
-}
-
 /* Media Queries */
 
 @media only screen and (max-width: 500px) {
